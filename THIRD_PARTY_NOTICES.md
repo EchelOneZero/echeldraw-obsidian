@@ -1,6 +1,6 @@
 # Third-party notices
 
-Generated from the packages included in the Obsidian release build. The EdDraw plugin is MIT licensed; bundled dependencies and fonts retain their original licenses. These notices are also included in the readable header of main.js so they accompany BRAT installations.
+Generated from the packages included in the Obsidian release build. The EchelDraw plugin is MIT licensed; bundled dependencies and fonts retain their original licenses. These notices are also included in the readable header of main.js so they accompany BRAT installations.
 
 Brand icons are from Simple Icons (CC0-1.0). Logos and trademarks remain the property of their respective owners; consult each brand's guidelines before using them.
 

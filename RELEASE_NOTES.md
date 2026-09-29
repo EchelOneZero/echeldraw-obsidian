@@ -1,20 +1,19 @@
-# EdDraw 0.1.1
+# EchelDraw 0.1.2
 
-First release prepared for installation and updates through BRAT. The package
-contains the standard Obsidian files: `main.js`, `manifest.json` and `styles.css`.
-Editor code, fonts and the brand icon catalog are embedded, with deferred editor
-initialization and lazy icon indexing.
+EdDraw is now **EchelDraw**. Plugin labels, commands, settings and installation
+documentation use the new name. The distribution repository is now
+https://github.com/EchelOneZero/echeldraw-obsidian.
 
-- Flowcharts, mind maps and free drawing saved as vault `.excalidraw` files.
-- Note cards, drawing links and PNG previews in Markdown notes.
-- Personal and imported libraries scoped to each vault.
-- Grouped text box adjustments and a visual default arrowhead picker.
-- Local fonts and brand icon search; optional site favicon retrieval.
-- MIT license and complete bundled dependency notices.
+This is an update of the same plugin: its ID remains `eddraw`, and its installed
+folder remains `.obsidian/plugins/eddraw/`. Existing drawings, personal
+libraries, settings and project folder paths remain compatible. Fresh
+installations default to `EchelDraw` for new project folders.
 
-Requires Obsidian desktop 1.13.7 or later. Disable another Excalidraw plugin in
-the destination vault before enabling EdDraw. When updating manually, preserve
-`data.json`, `personal-library.json` and recovery files.
+Install or update with BRAT using `EchelOneZero/echeldraw-obsidian`, or download
+`echeldraw-0.1.2.zip` and copy its three files into the existing plugin folder.
+When updating manually, preserve `data.json`, `personal-library.json` and
+recovery files. Editor code, fonts and icons remain embedded in the package.
 
-For installation, see the repository README. EdDraw is not yet submitted to the
-official Community Plugins catalog.
+Requires Obsidian desktop 1.13.7 or later. The MIT license and dependency
+credits remain in force. The official Community Plugins catalog submission is
+still a separate step.

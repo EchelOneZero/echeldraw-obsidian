@@ -1,9 +1,9 @@
 {
   "id": "eddraw",
-  "name": "EdDraw",
-  "version": "0.1.1",
+  "name": "EchelDraw",
+  "version": "0.1.2",
   "minAppVersion": "1.13.7",
-  "description": "Crie projetos e desenhos EdDraw dentro do seu cofre.",
+  "description": "Crie fluxogramas, mapas mentais e desenhos dentro do seu cofre.",
   "author": "Edgar",
   "isDesktopOnly": true
 }
