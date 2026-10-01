@@ -30,7 +30,7 @@ both plugins handle the `.excalidraw` extension.
 
 ## Install manually
 
-1. Download `echeldraw-0.1.9.zip` from [Releases](https://github.com/EchelOneZero/echeldraw-obsidian/releases/latest).
+1. Download `echeldraw-0.1.10.zip` from [Releases](https://github.com/EchelOneZero/echeldraw-obsidian/releases/latest).
 2. Close Obsidian and extract the ZIP directly into
    `<vault>/.obsidian/plugins/eddraw/`.
 3. `main.js`, `manifest.json` and `styles.css` must be directly inside `eddraw/`.
