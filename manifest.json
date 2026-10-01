@@ -1,7 +1,7 @@
 {
   "id": "eddraw",
   "name": "EchelDraw",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "minAppVersion": "1.13.7",
   "description": "Crie fluxogramas, mapas mentais e desenhos dentro do seu cofre.",
   "author": "Edgar",
