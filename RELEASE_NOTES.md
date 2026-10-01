@@ -1,26 +1,32 @@
-# EchelDraw 0.1.6
+# EchelDraw 0.1.7
 
-New defaults for snapping and for new texts. Drawings, settings and personal
-libraries from 0.1.5 remain compatible; the plugin ID remains `eddraw`.
+Style defaults per element type. Drawings, settings and personal libraries
+from 0.1.6 remain compatible; the plugin ID remains `eddraw`.
 
-Snap to objects:
+Defaults in each drawing:
 
-- Drawings now open with "snap to objects" turned on.
-- If you turn it off in a drawing, that drawing remembers it and reopens with
-  it off. Drawings that keep the default are not changed on disk.
+- The last style change you make to an element type in a drawing (rectangle,
+  diamond, ellipse, arrow, line, free drawing or text) becomes that type's
+  default in the drawing. Picking the tool again starts with that style.
+- A type without its own default starts with the style the drawing opened
+  with, so a color chosen for rectangles does not carry over to ellipses.
+- For texts, the default also includes the text box chosen last.
+- The defaults are saved in the drawing file and survive closing, reopening
+  and agent edits. Drawings where you change nothing are not changed on disk.
 
-New texts:
+App defaults:
 
-- A text created with the text tool now starts as a text box: background,
-  border and rounded corners, 5 px of padding, centered.
-- While the border keeps its default, choosing a background color also paints
-  the border with it; once you pick a border color yourself, it stays.
-- Creating a text is still a single undo step, and undoing it also removes the
-  box. Existing texts, labels inside shapes and on arrows, flow and mind map
-  texts and texts created by agents keep their style.
+- Right-click a selection of one element type and choose "Definir como padrão
+  do app" to use its style in every drawing that has no default of its own for
+  that type. It is saved in the plugin settings.
+- Order of precedence: the drawing's default, then the app's, then the
+  original style.
+
+Applying a default does not add an undo step. Undoing a style change does not
+undo the default it recorded; change the style again to replace it.
 
 Install or update with BRAT using `EchelOneZero/echeldraw-obsidian`, or download
-`echeldraw-0.1.6.zip` and copy its three files into the existing plugin folder.
+`echeldraw-0.1.7.zip` and copy its three files into the existing plugin folder.
 When updating manually, preserve `data.json`, `personal-library.json` and
 recovery files.
 
